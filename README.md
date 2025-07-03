@@ -53,6 +53,19 @@ chat-gp-me/
 ```
 ---
 
+## ⚙️ Setup: Requirements & Python Version
+
+Before running any scripts, make sure you have all the required Python packages installed.  
+You will find a `requirements.txt` in this repository – simply install everything with:
+
+```bash
+pip install -r requirements.txt
+```
+
+This project was developed and tested with Python 3.11.9.
+Other Python 3.10+ versions may also work, but for best compatibility, use 3.11.x if possible
+
+---
 ## 🛠 How it works
 
 ### 1. Export your WhatsApp chat
