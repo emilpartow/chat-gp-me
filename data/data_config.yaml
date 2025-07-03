@@ -1,0 +1,18 @@
+# data_config.yaml
+
+# The unique sender name you use in your WhatsApp exports.
+# Must match exactly as it appears in your chat files!
+user_identifier: "YourName"
+
+# Number of previous message blocks (not individual messages!) to use as context for each response.
+context_size: 1
+
+# Maximum time gap (in minutes) between consecutive messages from the same person
+# so that their messages are merged into a single block.
+max_minutes_gap: 3
+
+# Folder containing all your exported WhatsApp .txt chat files.
+data_dir: "data/raw"
+
+# Output path for the generated context/response pairs (CSV).
+output_path: "data/pairs.csv"
