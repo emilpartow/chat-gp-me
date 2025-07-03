@@ -51,8 +51,9 @@ chat-gp-me/
 ├── README.md
 └── LICENSE
 ```
+---
 
---- 🛠 How it works
+## 🛠 How it works
 
 ### 1. Export your WhatsApp chat
 To use this tool, you need to export one or more WhatsApp chats as plain text:
