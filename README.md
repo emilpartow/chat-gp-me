@@ -85,7 +85,7 @@ you **must** give yourself a unique name or identifier in WhatsApp **before** ex
 2. Tap your profile name, and enter a unique identifier.
 3. Export your chats with this new name as described above.
 
-#### ⚠️ Important!!!  
+### ⚠️ Important!!!  
 
 After exporting, you also have to set your chosen name (identifier) in the `data_config.yaml`  
 file under the `user_identifier` field – so the data processing scripts can recognize your own messages.
